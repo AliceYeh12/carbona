@@ -1,0 +1,132 @@
+/* Defaults */
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar-custom {
+    background-color: whitesmoke;
+    opacity: 70%;
+    height: 65px;
+}
+
+.navbar-custom .navbar-text {
+    color: rgb(156, 11, 40);
+    opacity: 100%;
+    margin-right: 15px;
+}
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.logo {
+    padding-top: 7px;
+    max-width: 50%;
+    height: auto;
+}
+
+a {
+    color: rgb(156, 11, 40);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(156, 11, 40);
+    font-weight: bolder;
+}
+
+/* Dashboard specific */
+
+.visible {
+    display: block;
+}
+
+.jumbotron {
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url('/assets/dashboard-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#env-progress {
+    border-color: rgb(156, 11, 40);
+    border-width: 1px;
+}
+
+.proj-card {
+    float: left;
+    width: 60%;
+}
+
+.user-action {
+    float: right;
+    width: 35%;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.border-current {
+    border-color: rgb(156, 11, 40);
+    border-width: 3px;
+}
+
+.awards-text {
+    margin-bottom: 2px;
+}
+
+/* Dashboard hidden specific */
+
+.jumbotron-hidden {
+    margin-top: 70px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url('/assets/dashboard-hidden.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.hidden-text {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Leaderboards */
+
+.page-header {
+    background-image: url("/assets/leaderboards.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#leaderboard-heading {
+    text-align: center;
+    color: white;
+    font-size: 96px;
+    padding-top: 17%;
+}

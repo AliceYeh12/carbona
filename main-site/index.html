@@ -1,0 +1,48 @@
+---
+layout: default
+title: Carbona | Dashboard
+---
+<div id="main" class="visible">
+    <div class="jumbotron">
+        <h1 class="display-3">Welcome!</h1>
+        <p class="lead">New day, new goal.</p>
+        <hr class="my-4">
+        <p id="progress-detail">Progress towards<b> Level 2: Rachel Carson</b></p>
+        <div class="progress">
+            <div id="env-progress" class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="12" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+    
+    <div class="daily-challenge">
+        <div class="card mb-3 proj-card border-current">
+            <div id="difficulty-level" class="card-header">Difficulty Level: Hard | Point Value: 3</div>
+            <div class="card-body">
+                <h3 id="challenge-title" class="proj-title card-title">Reuse food scraps.</h3>
+                <p class="proj-text card-text">For example, you can make some vegetable soup with vegetable skins and scraps.</p>
+                <p class="awards-text card-text">Challenge your friends with your goal:</p>
+                <a href="https://www.facebook.com/" class="card-link">Facebook</a>
+                <a href="https://www.instagram.com/" class="card-link">Instagram</a>
+                <a href="https://twitter.com/" class="card-link">Twitter</a>
+            </div>
+        </div>
+        <div class="user-action">
+                <button type="button" class="btn btn-success btn-lg btn-block" onclick=changeDashboard()>Completed! I'll remember for the future.</button>
+                <button type="button" class="btn btn-outline-success" onclick=changeDashboard()>Completed, but remind me again.</button>
+                <button type="button" class="btn btn-secondary" onclick=changeDashboard()>Wasn't able to do it.</button>
+        </div>
+    </div>
+</div>
+
+<div id="complete" class="hidden">
+    <div class="jumbotron-hidden jumbotron">
+        <h1 class="hidden-text display-3">That's it for today!</h1>
+        <p class="hidden-text lead">Come back tomorrow for a new goal.</p>
+        <hr class="my-4">
+        <p class="hidden-text">Progress towards<b> Level 2: Rachel Carson</b></p>
+        <div class="progress">
+            <div id="env-progress" class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+    </div>
+</div>
+
+

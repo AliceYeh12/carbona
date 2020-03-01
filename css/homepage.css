@@ -1,0 +1,120 @@
+/* Defaults */
+
+body {
+    background-image: url('/assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.container {
+    width: 90%;
+}
+
+.navbar-custom {
+    background-color: whitesmoke;
+    opacity: 70%;
+    height: 65px;
+}
+
+.navbar-custom .navbar-text {
+    color: rgb(156, 11, 40);
+    opacity: 100%;
+    margin-right: 15px;
+}
+
+nav ul, footer ul {
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.logo {
+    padding-top: 7px;
+    max-width: 50%;
+    height: auto;
+}
+
+a {
+    color: rgb(156, 11, 40);
+    font-weight: bolder;
+}
+
+a:hover {
+    color: rgb(156, 11, 40);
+    font-weight: bolder;
+}
+
+/* Homepage specific */
+
+#quote-box {
+    background-color: lightgray;
+    opacity: 90%;
+    width: 45%;
+    height: 410px;
+    margin-top: 140px;
+    margin-right: 1100px;
+    padding-top: 20px;
+}
+
+#homepage-logo {
+    max-width: 100%;
+}
+
+#quote {
+    font-size: 72px;
+    margin: 15px;
+    padding-left: 15px;
+}
+
+/* Login specific */
+
+#contentsMain {
+    height: 700%;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    margin-top: 90px;
+    background-color: lightgray;
+    opacity: 90%;
+    text-align: center;
+}
+
+.log-in-text {
+    padding-top: 8px;
+    color: rgb(156, 11, 40);
+}
+
+input[type=text], input[type=password] {
+    width: 95%;
+    padding: 8px 20px;
+    display: inline-block;
+    border: 2px solid rgb(156, 11, 40);
+    box-sizing: border-box;
+  }
+
+.inputLogin {
+    padding-top: 15px;
+    float: left;
+    margin-left: 5px;
+}
+
+#liButton {
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+}
+
+#suLink {
+    color: darkblue;
+}
